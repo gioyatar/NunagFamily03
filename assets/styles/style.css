@@ -1,0 +1,181 @@
+/* main color: rgb(2, 6, 23)
+sub color: #212529 
+
+# for id
+. for class
+*/
+
+body {
+    margin: 0px;
+    background-color: rgb(2, 6, 23);
+}
+
+#topNavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(2, 6, 23);
+    border-bottom: 2px solid rgb(51, 65, 85);
+    z-index: 2;
+}
+
+#siteName {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+#eyeCatchContainer {
+    position: relative;
+    margin-top: 61px;
+    z-index: 1;
+}
+
+#backgroundGIF {
+    height: 475px;
+    width: 100%;
+}
+
+#topWord {
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    width: 70%;
+    font-family: 'PixelGridM';
+    font-size: 70px;
+    color: white;
+    text-shadow: rgba(2, 6, 23, 0.8) 4px 5px 0px;
+    letter-spacing: 3.4px;
+}
+
+#ramenPackGIF {
+    position: absolute;
+    height: 350px; 
+    width: 350px;
+    top: 10%;
+    left: 73%;
+}
+
+#bottomWord {
+    position: absolute;
+    top: 59%;
+    left: 7%;
+    width: 60%;
+    font-family: Mulish, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+#creditsDiv {
+    position: absolute;
+    top: 85%;
+    left: 24%;
+    color: white;
+    font-family: Mulish, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.68px;
+}
+
+#introHeader {
+    width: 60%;
+    font-family: 'PixelGridM';
+    font-size: 28px;
+    color: white;
+    letter-spacing: 0.96px;
+}
+
+/* Mobile Gamerrrrxxxxxz */
+@media only screen and (max-width: 600px) {
+    #topNavBar {
+        height: 50px;
+        width: 100%;
+    }
+
+    #siteName {
+        font-size: 14px;
+    }
+
+    #eyeCatchContainer {
+        margin-top: 52px;
+    }
+
+    #backgroundGIF {
+        height: 350px;
+        width: 100%;
+    }
+    
+    #topWord {
+        font-size: 30px;
+        top: 2%;
+        left: 5%;
+        width: 90%;
+        text-shadow: rgba(2, 6, 23, 0.8) 2px 2px 0px;
+        text-align: center;
+    }
+
+    #ramenPackGIF {
+        width: 150px;
+        height: 150px;
+        top: 27%;
+        left: 36%;
+    }
+
+    #bottomWord {
+        top: 66%;
+        left: 5.3%;
+        width: 90%;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+/* iPad Kidssxxxxxxxzzzzz */
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+    #topNavBar {
+        height: 60px;
+        width: 100%;
+    }
+
+    #siteName {
+        font-size: 18px;
+    }
+
+    #eyeCatchContainer {
+        margin-top: 62px;
+    }
+
+    #backgroundGIF {
+        height: 450px;
+        width: 100%;
+    }
+
+    #topWord {
+        font-size: 40px;
+        top: 2%;
+        left: 5%;
+        width: 90%;
+        text-shadow: rgba(2, 6, 23, 0.8) 3px 3px 0px;
+        text-align: center;
+    }
+
+    #ramenPackGIF {
+        width: 225px;
+        height: 225px;
+        top: 27%;
+        left: 38%;
+    }
+
+    #bottomWord {
+        top: 76%;
+        left: 5.3%;
+        width: 90%;
+        font-size: 16px;
+        text-align: center;
+    }
+}
