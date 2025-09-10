@@ -112,7 +112,7 @@ body {
     
     #topWord {
         font-size: 30px;
-        top: 2%;
+        top: 1%;
         left: 5%;
         width: 90%;
         text-shadow: rgba(2, 6, 23, 0.8) 2px 2px 0px;
@@ -122,12 +122,12 @@ body {
     #ramenPackGIF {
         width: 150px;
         height: 150px;
-        top: 27%;
-        left: 36%;
+        top: 35%;
+        left: 31.5%;
     }
 
     #bottomWord {
-        top: 66%;
+        top: 74%;
         left: 5.3%;
         width: 90%;
         font-size: 13px;
